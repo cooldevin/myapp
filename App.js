@@ -28,16 +28,40 @@ const App: () => React$Node = () => {
   return (
     <>
       <View style={styles.container}>
-        <Text style={{backgroundColor: 'red', height: 30, width: 100}}>
+        <Text
+          style={{
+            backgroundColor: 'red',
+            height: 30,
+            width: 100,
+            textAlign: 'center',
+          }}>
           第1个
         </Text>
-        <Text style={{backgroundColor: 'yellow', height: 40, width: 100}}>
+        <Text
+          style={{
+            backgroundColor: 'yellow',
+            height: 40,
+            width: 100,
+            textAlign: 'center',
+          }}>
           第2个
         </Text>
-        <Text style={{backgroundColor: 'blue', height: 50, width: 100}}>
+        <Text
+          style={{
+            backgroundColor: 'blue',
+            height: 50,
+            width: 100,
+            textAlign: 'center',
+          }}>
           第3个
         </Text>
-        <Text style={{backgroundColor: 'green', height: 60, width: 100}}>
+        <Text
+          style={{
+            backgroundColor: 'green',
+            height: 60,
+            width: 100,
+            textAlign: 'center',
+          }}>
           第4个
         </Text>
       </View>
@@ -91,7 +115,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'gray',
     marginTop: 25,
     flexDirection: 'row',
-    justifyContent: 'space-around',
+    justifyContent: 'center',
   },
   // scrollView: {
   //   backgroundColor: Colors.lighter,
